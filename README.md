@@ -12,9 +12,10 @@ It might work for other DIY CNC machines running Marlin and a different post-pro
   
 If you just simply want to test it on a .gcode file go in the "RapidGcode" folder and only download "GcodeRapidFeed.py" (You need Python installed for it to run)  
 Just place "GcodeRapidFeed.py" in a folder containing a .gcode file and run it and follow the promts.   
-    
-    
-**How to if you want to use the Klipper post-processor with the script.**  
+      
+      
+        
+**How to if you want to use the Klipper post-processor with the script:**  
     
 Download **"RapidGcode-OctoUpload"** folder if you want to use Octo-Upload. (The Post-Processor does support this too, but it would upload the "slow travel" version directly from Fusion)  
   
