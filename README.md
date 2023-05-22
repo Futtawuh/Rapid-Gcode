@@ -24,7 +24,7 @@ Download "RapidGcode" folder if you dont want Octo-Upload.
 
 Here is how the actual Gcode looks after the scripts edit. (all F values was set to F300 in fusion, cause of the limitations where Fusion sets cutting speed to rapid travel on "free" accounts)
 
-Original (slow travel)    Modified (fast travel)
+Original (slow travel)    ->  Modified (fast travel)
 1.  G1 X100 Y0 Z15 F300   ->  G1 X100 Y0 Z15 F4000
 2.  G1 Z-15 F300          ->  G1 Z-15 F300
 3.  G1 Z15 F300           ->  G1 Z15 F4000
@@ -42,6 +42,7 @@ Original (slow travel)    Modified (fast travel)
 
 
 This is taken from the change_log.txt it provides after editing to show only the lines that got changed
+
 Original: G1 X100 Y0 Z15 F300            -> Modified: G1 X100 Y0 Z15 F4000          
 Original: G1 Z15 F300                    -> Modified: G1 Z15 F4000                  
 Original: G1 X300 Y0 F300                -> Modified: G1 X300 Y0 F4000              
