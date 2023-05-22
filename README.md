@@ -65,4 +65,4 @@ G1 X0 Y300 F300                                  | G1 X0 Y300 F4000
 G1 Z15 F300                                      | G1 Z15 F4000                  
 G1 X0 Y0 F300                                    | G1 X0 Y0 F4000                
 
-In this example, we used 15 as the retraction on Z, so it changed the F value of all the G1 lines with a Z value of 15 to F4000 and also changed the next line after a Z15 line to F5000 as long as that line does not have a new Z value. This ensures that it will retract to Z15 fast, and the next "travel" command gets sped up. It will never change the F value of a line if Z is under 5.
+In this example, we used 15 as the retraction on Z, so it changed the F value of all the G1 lines with a Z value of 15 to F4000 and also changed the next line after a Z15 line to F4000 as long as that line does not have a new Z value. This ensures that it will retract to Z15 fast, and the next "travel" command gets sped up. It will never change the F value of a line if Z is under 5.
