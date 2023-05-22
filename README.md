@@ -1,13 +1,18 @@
 # Rapid-Gcode
 ## Change feedrate for .gcode files using your retraction settings. 
 
-**99% made by ChatGPT, so if you know Python and want to help make this a better script I'm all ears.
-This is mostly a personal project for a Lowrider 3 CNC running Klipper. 
-This is to combat Fusion 360's limited rapid feed for personal use accounts.** 
+**99% made by ChatGPT, so if you know Python and want to help make this a better script I'm all ears.  
+This is mostly a personal project for a Lowrider 3 CNC running Klipper.   
+This is to combat Fusion 360's limited rapid feed for personal use accounts.**   
 
-Download *"RapidGcode-OctoUpload"* folder if you want to use Octo-Upload. (The Post-Processor does support this too, but it would upload the "slow travel" version directly from Fusion)
-or
-Download *"RapidGcode"* folder if you don't want Octo-Upload.
+I've used this myself for a few jobs now and so far it works fine, but i take **NO** responsibility if you crash.
+
+Download *"RapidGcode-OctoUpload"* folder if you want to use Octo-Upload. (The Post-Processor does support this too, but it would upload the "slow travel" version directly from Fusion)  
+  
+or  
+  
+Download *"RapidGcode"* folder if you don't want Octo-Upload.  
+  
 Both of these folders contain the post-processor used for a klipper based CNC (Credit to https://github.com/cristianku/mpcnc_config)
 
 1. Download the folder of your choice. 
