@@ -6,7 +6,9 @@ This is mostly a personal project for a Lowrider 3 CNC running Klipper.
 This is to combat Fusion 360's limited rapid feed for personal use accounts.**   
 
 I've used this myself for a few jobs now and so far it works fine, but i take **NO** responsibility if you crash.  
-It might work for other DIY CNC machines running Marlin and a different post-processor etc as it only changes the F value, but this has not been tested. Should support any .gcode file. 
+It might work for other DIY CNC machines running Marlin and a different post-processor etc as it only changes the F value, but this has not been tested. Should support any .gcode file.   
+  
+If you just simply want to test it on a .gcode file go in the "RapidGcode" folder and only download "GcodeRapidFeed.py" (You need Python installed for it to run)
 
 Download *"RapidGcode-OctoUpload"* folder if you want to use Octo-Upload. (The Post-Processor does support this too, but it would upload the "slow travel" version directly from Fusion)  
   
