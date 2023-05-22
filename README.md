@@ -9,8 +9,10 @@ I've used this myself for a few jobs now and so far it works fine, but i take **
 It might work for other DIY CNC machines running Marlin and a different post-processor etc as it only changes the F value, but this has not been tested. Should support any .gcode file.   
   
 If you just simply want to test it on a .gcode file go in the "RapidGcode" folder and only download "GcodeRapidFeed.py" (You need Python installed for it to run)  
-Just place GcodeRapidFeed.py in a folder containing a .gcode file and run it and follow the promts. 
-
+Just place "GcodeRapidFeed.py" in a folder containing a .gcode file and run it and follow the promts.   
+The Post-processor files are purely for people running a DIY CNC on klipper.  
+  
+  
 Download *"RapidGcode-OctoUpload"* folder if you want to use Octo-Upload. (The Post-Processor does support this too, but it would upload the "slow travel" version directly from Fusion)  
   
 or  
