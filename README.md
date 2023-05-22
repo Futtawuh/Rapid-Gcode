@@ -8,6 +8,7 @@ This is to combat Fusion 360's limited rapid feed for personal use accounts.**
 Download *"RapidGcode-OctoUpload"* folder if you want to use Octo-Upload. (The Post-Processor does support this too, but it would upload the "slow travel" version directly from Fusion)
 or
 Download *"RapidGcode"* folder if you don't want Octo-Upload.
+Both of these folders contain the post-processor used for a klipper based CNC (Credit to https://github.com/cristianku/mpcnc_config)
 
 1. Download the folder of your choice. 
 2. Read the "How-to.txt" file in the folder to set up correctly. 
