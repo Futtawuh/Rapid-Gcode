@@ -51,7 +51,8 @@ G1 Z-15 F300           |  G1 Z-15 F300
 G1 Z15 F300            |  G1 Z15 F4000
 G1 X0 Y0 F300          |  G1 X0 Y0 F4000
 
-This is taken from the change_log.txt it provides after editing to show only the lines that got changed
+This is taken from the change_log.txt it provides after editing to show only the lines that got changed  
+Easier to check here since you dont have to check lines that didnt get changed. 
 
 Original                                         | Modified
 -------------------------------------------------|-----------------------------------
