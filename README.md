@@ -33,7 +33,7 @@ Both of these folders contain the post-processor used for a klipper based CNC (C
 8. Type in your desired feedrate for safe travel. 
 9. The script will then do its thing and output a new .gcode file called ("WhatEverYouNamedItWhenPosting"_Z15_F4000.gcode) if you had a retraction of 15 and a new safe travel of 4000.
 10. Check either ("WhatEverYouNamedItWhenPosting"_Z15_F4000.gcode) or ("WhatEverYouNamedItWhenPosting"Change_log_Z15_F4000.txt) to see if everything is OK. 
-11. Send it to your CNC as you would normally do if it looks fine. 
+11. Send it to your CNC as you would normally do if it looks fine, or if you used Octo_Upload it should be sent to your CNC when its done editing. 
 12. That's it, don't crash, be safe. You can make some test paths in Fusion and run it through the script and "dry-run" the new file for testing.  
   
 If nothing changed in the .gcode and the change_log.txt is empty after running the script you might have entered the wrong retraction value and the script didnt find any lines to change.   
