@@ -21,7 +21,7 @@ Both of these folders contain the post-processor used for a klipper based CNC (C
 3. After that is done, continue to step 4.
 ------------------------------------------------------------------
 ------------------------------------------------------------------
-4. Run "RapidGcode.py" or "RapidGcode-OctoUpload", it will auto-read the newest .gcode file in the folder where the script is located. 
+4. Run "GcodeRapidFeed.py" or "RapidGcode-OctoUpload", it will auto-read the newest .gcode file in the folder where the script is located. 
 5. Press "Enter" after reading the warning.
 6. Enter the IP to your CNC to set the IP for Octo-upload (only for "RapidGcode_OctoUpload.py")
 7. Type in your Z retraction that you used in Fusion 360 (5, 10, 15, 20, etc). 
