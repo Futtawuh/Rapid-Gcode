@@ -5,7 +5,8 @@
 This is mostly a personal project for a Lowrider 3 CNC running Klipper.   
 This is to combat Fusion 360's limited rapid feed for personal use accounts.**   
 
-I've used this myself for a few jobs now and so far it works fine, but i take **NO** responsibility if you crash.
+I've used this myself for a few jobs now and so far it works fine, but i take **NO** responsibility if you crash.  
+It might work for other DIY CNC machines running Marlin and a different post-processor etc as it only changes the F value, but this has not been tested. Should support any .gcode file. 
 
 Download *"RapidGcode-OctoUpload"* folder if you want to use Octo-Upload. (The Post-Processor does support this too, but it would upload the "slow travel" version directly from Fusion)  
   
@@ -22,13 +23,15 @@ Both of these folders contain the post-processor used for a klipper based CNC (C
 ------------------------------------------------------------------
 4. Run "RapidGcode.py" or "RapidGcode-OctoUpload", it will auto-read the newest .gcode file in the folder where the script is located. 
 5. Press "Enter" after reading the warning.
-6. Enter the IP to your CNC to set the IP for Octo-upload (only for "RapidGcode-OctoUpload")
+6. Enter the IP to your CNC to set the IP for Octo-upload (only for "RapidGcode_OctoUpload.py")
 7. Type in your Z retraction that you used in Fusion 360 (5, 10, 15, 20, etc). 
 8. Type in your desired feedrate for safe travel. 
 9. The script will then do its thing and output a new .gcode file called ("WhatEverYouNamedItWhenPosting"_Z15_F4000.gcode) if you had a retraction of 15 and a new safe travel of 4000.
 10. Check either ("WhatEverYouNamedItWhenPosting"_Z15_F4000.gcode) or ("WhatEverYouNamedItWhenPosting"Change_log_Z15_F4000.txt) to see if everything is OK. 
 11. Send it to your CNC as you would normally do if it looks fine. 
-12. That's it, don't crash, be safe. You can make some test paths in Fusion and run it through the script and "dry-run" the new file for testing. 
+12. That's it, don't crash, be safe. You can make some test paths in Fusion and run it through the script and "dry-run" the new file for testing.  
+  
+If nothing changed in the .gcode and the change_log.txt is empty after running the script you might have entered the wrong retraction value and the script didnt find any lines to change.   
 
 Here is how the actual G-code looks after the script's edit. (all F values were set to F300 in Fusion, cause of the limitations where Fusion sets cutting speed to rapid travel on "free" accounts)
 
