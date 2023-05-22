@@ -1,0 +1,26 @@
+
+
+**What are these files?**
+
+- "Klipper.js" and "MPCNC Klipper Fusion 360.cps/.mch" are the post-processor files for Fusion 360.
+
+- "Move_Post_Proc_Files.py" is a simple script that moves the 3 post-processor files
+   to Fusion's post library folder. (You can delete "Move_Post_Proc_Files.py" after running it).
+
+- "RapidGcode.py" is the actual script that you need to run for it to change the values in the G-code.
+
+
+
+**How to make sure it works:**
+
+1. Download and install Python if you don't have it already. Then reboot your PC.
+
+2. Run "Move_Post_Proc_Files.py". Once the 3 post-processor files are moved, you can delete "Move_Post_Proc_Files.py".
+
+4. Move "RapidGcode.py" to the folder where Fusion 360 saves your G-codes after Post Processing.
+   By default, it's "C:\Users\YOUR_USERNAME\Documents\Fusion 360\NC Programs" unless you changed it.
+
+   DONE! If all those steps are completed, you can now use "RapidGcode.py" to fix the feedrate of travel moves.
+
+
+   ** For how to use "RapidGcode.py" check the Github. ( https://github.com/Futtawuh/Rapid-Gcode )**
